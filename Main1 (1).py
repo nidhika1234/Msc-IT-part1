@@ -1,7 +1,8 @@
-def Add(a,b):
-    return a+b
-def Display():
-    print("Hello")
+from Main1 (1) import Add
+
+def TestAdd():
+  assert Add(3,4)==9
+  print("Add Function works correctly")
 
 if __name__=='__main__':
-   Display()
+  TestAdd()
