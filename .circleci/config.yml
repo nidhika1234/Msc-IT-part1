@@ -22,7 +22,7 @@ jobs:
      - run: python Test.py
      #orchestrate our job run sequence
 workflows:
- build_ands_test:
+ build_and_test:
   jobs:
    - build
    - test
