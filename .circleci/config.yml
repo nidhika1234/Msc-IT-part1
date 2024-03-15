@@ -12,7 +12,7 @@ jobs:
     - image: python
    steps:
     - checkout
-    - run: python Main1.py
+    - run: python Main1 (1).py
   test:
     docker:
      - image: python
