@@ -1,4 +1,4 @@
-def Add(a,d):
+def Add(a,b):
     return a+b
 def Display():
     print("Hello")
